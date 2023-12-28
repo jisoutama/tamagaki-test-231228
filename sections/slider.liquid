@@ -122,7 +122,11 @@
           <div class="swiper-slide">
          <div class="slide-overlay">
          </div>
-             <img src="https://picsum.photos/500/300">
+             {%- if block.settings.image != blank -%}
+	<img src="{{ block.settings.image | img_url: '2049x' }}"  loading="lazy">
+{%- else -%}
+	{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+{%- endif -%}
              <div class="slide-content center">
                  <h2 class="mega-title--large">Slide Title 1</h2>
                  <p class="mega-desc--large">Lorem ipsum dolor sit amet, 
