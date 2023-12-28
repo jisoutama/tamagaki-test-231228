@@ -18,11 +18,11 @@
         "4c984517-5d8d-49ff-b598-e44e41aa1fc3"
       ],
       "settings": {
-        "slide_height": "adapt",
+        "slide_height": "small",
         "text_size": "medium",
         "text_alignment": "center center",
         "show_overlay": true,
-        "auto": false,
+        "auto": true,
         "speed": 5
       }
     },
