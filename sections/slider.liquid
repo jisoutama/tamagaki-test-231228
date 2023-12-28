@@ -118,9 +118,12 @@
  </style>
 <div class="swiper-container slideshow--{{ section.settings.slide_height }}">
    <div class="swiper-wrapper">
+     
      <div class="swiper-slide">
-		<div class="slide-overlay">
-		</div>
+		{% if section.settings.show_overlay == true %}
+    <div class="slide-overlay">
+    </div>
+{% endif %}
             <img src="https://picsum.photos/500/300">
             <div class="slide-content center">
             <h2 class="{% if section.settings.text_size == 'large' %} mega-title--large{% endif %}">Slide Title 1</h2>
