@@ -2,7 +2,28 @@
   "sections": {
     "277c7751-17c5-412e-9ce9-e637552a91f8": {
       "type": "slider",
+      "blocks": {
+        "4c984517-5d8d-49ff-b598-e44e41aa1fc3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0236.jpg",
+            "slide_title": "見出しが入ります。",
+            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "4c984517-5d8d-49ff-b598-e44e41aa1fc3"
+      ],
       "settings": {
+        "slide_height": "adapt",
+        "text_size": "medium",
+        "text_alignment": "center center",
+        "show_overlay": true,
+        "auto": false,
+        "speed": 5
       }
     },
     "image_banner": {
