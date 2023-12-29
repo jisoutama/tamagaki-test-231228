@@ -124,10 +124,10 @@
     <div class="slide-overlay">
     </div>
 {% endif %}
-           {%- if block.settings.image != blank -%}
-	<img src="{{ block.settings.image | img_url: '2049x' }}"  loading="lazy">
+        {%- if block.settings.image != blank -%}
+      	<img src="{{ block.settings.image | img_url: '2049x' }}"  loading="lazy">
 {%- else -%}
-	{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+    	{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
 {%- endif -%}
             <div class="slide-content 
 {% if section.settings.text_alignment == 'center center' %} center {% endif %}
